@@ -75,8 +75,27 @@ header {
 }
 
 .random {
-  display: none;
+  display: block;
   background-color: white;
+  h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin-left: 15em;
+    padding: 2em;
+  }
+  div{
+    display:inline-flex;
+    justify-content: space-evenly;
+    img{
+      height: 200px;
+      width: 200px;
+      border: 5px solid #3882f6;
+      border-radius: 1em;
+      display: inline-flex;
+    }
+  }
+
 }
 
 .action {
@@ -85,7 +104,7 @@ header {
 
 .quote {
   display: none;
-  background-color: #ESE7EB;
+  background-color: #E5E7EB;
   p {
     font-size: 36px;
     font-family: light italic;

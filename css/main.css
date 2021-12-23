@@ -87,8 +87,35 @@ header a {
 }
 
 .random {
-  display: none;
+  display: block;
   background-color: white;
+}
+
+.random h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  margin-left: 15em;
+  padding: 2em;
+}
+
+.random div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.random div img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 1em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .action {
@@ -97,7 +124,7 @@ header a {
 
 .quote {
   display: none;
-  background-color: #ESE7EB;
+  background-color: #E5E7EB;
 }
 
 .quote p {
