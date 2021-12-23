@@ -57,7 +57,7 @@ header {
     font-size: 18px;
     color: #e5e7eb;
     width: 20vw;
-    height:auto;
+    height: auto;
     margin-left: 6.5em;
   }
   button {
@@ -67,51 +67,69 @@ header {
     width: 95px;
     border-radius: 5px 5px 5px 5px;
     margin-left: 9em;
-    margin-top:1em;
+    margin-top: 1em;
   }
 
-
-
+  img {
+    width: 30em;
+    margin: 2em;
+  }
 }
 
 .random {
   display: block;
   background-color: white;
-  h2{
+  h2 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
-    margin-left: 15em;
-    padding: 2em;
+    text-align: center;
+    margin-top: 0.5em;
   }
-  div{
-    display:inline-flex;
+
+  .container {
+    margin: 2em auto 2em auto;
+    width: 80%;
+    display: flex;
     justify-content: space-evenly;
-    img{
+
+    img {
       height: 200px;
       width: 200px;
       border: 5px solid #3882f6;
       border-radius: 1em;
-      display: inline-flex;
+    }
+    p {
+      width: 200px;
+      font-size: 20px;
+      color: black;
+      text-align: center;
     }
   }
-
-}
-
-.action {
-  display: none;
 }
 
 .quote {
-  display: none;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
+  padding: 5em;
+
+  .container {
+    width: 60%;
+    margin: auto;
+  }
+
   p {
     font-size: 36px;
     font-family: light italic;
     color: #1f2937;
   }
-}
 
+  h3 {
+    text-align: right;
+  }
+}
+.action {
+  display: none;
+}
 footer {
   display: none;
   color: white;
