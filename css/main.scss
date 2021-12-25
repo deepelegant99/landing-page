@@ -128,10 +128,46 @@ header {
   }
 }
 .action {
-  display: none;
+  display: block;
+  height: em;
+  background-color: #3882f6;
+  color: white;
+  margin-top: 5em;
+  padding:.9em;
+  .container{
+    width: 75%;
+    margin: auto;
+    .top_action_part{
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .bottom_action_part{
+      display:inline-flex;
+      justify-content: space-evenly;
+    }
+    button{
+      justify-content: space-between;
+      background-color: #3882f6;
+      color:#f9faf8;
+      font-weight: bold;
+      width: 150px;
+      height: 30px;
+      border: 3px solid #f9faf8;
+      border-radius: .5em;
+      margin-left: 35em;
+      text-align: center;
+
+    }
+  }
+
+
 }
 footer {
-  display: none;
+  display: block;
   color: white;
   background-color: #1f2937;
+  margin-top: 5em;
+  padding:2em;
+  text-align:center;
 }
